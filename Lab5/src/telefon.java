@@ -35,7 +35,7 @@ public class telefon {
     }
     public boolean apeleaza(telefon t)
     {
-        if(cnt < 100)
+        if(t.cnt < 100)
         {
             t.contacte[t.cnt] = this.proprietar;
             t.cnt++;

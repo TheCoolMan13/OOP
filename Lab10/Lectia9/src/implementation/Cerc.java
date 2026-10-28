@@ -13,7 +13,7 @@ public class Cerc extends Figura{
     }
     public String toString()
     {
-        return "implementation.Cerc: " + "Ox:"+ oX +" Oy:" + oY +" raza:" + radius;
+        return "Cerc: " + "Ox:"+ oX +" Oy:" + oY +" raza:" + radius;
     }
     public boolean equals(Object o)
     {

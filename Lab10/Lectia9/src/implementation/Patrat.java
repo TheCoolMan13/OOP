@@ -16,7 +16,7 @@ public class Patrat extends Figura{
     // A = (pY - oY)^2
     public String toString()
     {
-        return "implementation.Patrat: (" + oX + "," + oY + ") (" + pX +","+ pY + ")";
+        return "Patrat: (" + oX + "," + oY + ") (" + pX +","+ pY + ")";
     }
     public boolean equals(Object o)
     {

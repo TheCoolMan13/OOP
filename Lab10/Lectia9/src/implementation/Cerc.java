@@ -1,4 +1,6 @@
-public class Cerc {
+package implementation;
+
+public class Cerc extends Figura{
     private int oX;
     private int oY;
     private int radius;
@@ -11,7 +13,7 @@ public class Cerc {
     }
     public String toString()
     {
-        return "Cerc: " + "Ox:"+ oX +" Oy:" + oY +" raza:" + radius;
+        return "implementation.Cerc: " + "Ox:"+ oX +" Oy:" + oY +" raza:" + radius;
     }
     public boolean equals(Object o)
     {

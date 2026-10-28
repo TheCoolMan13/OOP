@@ -1,4 +1,6 @@
-public class Patrat {
+package implementation;
+
+public class Patrat extends Figura{
     private int oX;
     private int oY;
     private int pX;
@@ -14,13 +16,13 @@ public class Patrat {
     // A = (pY - oY)^2
     public String toString()
     {
-        return "Patrat: (" + oX + "," + oY + ") (" + pX + pY + ")";
+        return "implementation.Patrat: (" + oX + "," + oY + ") (" + pX +","+ pY + ")";
     }
     public boolean equals(Object o)
     {
         if(o instanceof Patrat)
         {
-            return (this.pY - this.oY) == (((Patrat) o).pY - ((Patrat) o).oY);
+            return ((this.pY - this.oY) == (((Patrat) o).pY - ((Patrat) o).oY));
         }
         return false;
     }

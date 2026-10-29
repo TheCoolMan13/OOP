@@ -61,6 +61,6 @@ public class Main {
             System.out.println("Stiva Goala");
         }
 
-        System.out.println(stack);
+        InterfataAfisare.afisare(stack);
     }
 }
